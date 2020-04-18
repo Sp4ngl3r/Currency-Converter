@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Form</title>
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+    <script src="form.js"></script>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <div id="powerd">
+      <a
+        href="https://www.transfermate.com/"
+        target="_blank"
+        id="tm_add146"
+        class="tm_add146"
+        >Powered by TransferMate</a
+      >
+    </div>
+    <div id="demo-rate-convert"></div>
+    <script>
+      var apiTargetHtmlObj = document.getElementById("demo-rate-convert");
+      var tmScript = document.createElement("script");
+      tmScript.src =
+        "https://www.transfermate.com/en/exchange_rates_api.asp?csel=USD,INR&cshort=";
+      document.getElementsByTagName("head")[0].appendChild(tmScript);
+    </script>
+    <noscript
+      ><br /><span style="color: red;"
+        >Please enable your JavaScript.</span
+      ></noscript
+    >
+  </body>
+</html>

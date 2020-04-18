@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Form</title>
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="design.css" />
+  </head>
+  <body>
+    <div class="login">
+      <h1>Login to Web App</h1>
+      <p>
+        <input type="email" id="email" placeholder="Email" />
+      </p>
+      <p>
+        <input type="password" id="password" placeholder="Password" />
+      </p>
+      <!-- <p class="remember_me">
+          <label>
+            <input type="checkbox" name="remember_me" id="remember_me" />
+            Remember me on this computer
+          </label>
+        </p> -->
+      <!-- <p class="submit">
+          <input type="submit" name="commit" value="Login" />
+        </p> -->
+      <button onclick="sign_up()" id="sign_up">Sign Up</button>
+      <button onclick="login()" id="login">Login</button>
+      <button onclick="sign_out()" id="sign_out">Sign Out</button>
+    </div>
+
+    <div class="login-help">
+      <p>Forgot your password? <a href="#">Click here to reset it</a>.</p>
+    </div>
+  </body>
+</html>

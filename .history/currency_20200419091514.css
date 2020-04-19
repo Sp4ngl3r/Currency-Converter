@@ -84,4 +84,8 @@ button:focus {
 }
 h1 {
   font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 1px;
 }

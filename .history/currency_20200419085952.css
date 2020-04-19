@@ -5,10 +5,10 @@
 body {
   background: linear-gradient(
     to bottom,
-    #a2a5f0 0%,
+    #e2b5ee 0%,
     #aff2ff 55%,
     #50dcff 55%,
-    #298b9e 100%
+    #056dbb 100%
   );
   font-family: "Muli", fantasy;
   display: flex;
@@ -43,7 +43,7 @@ body {
   text-align: right;
 }
 .middle {
-  color: brown;
+  color: teal;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,7 +53,7 @@ body {
   border: 2px solid #ecf0f1;
   border-radius: 50%;
   cursor: pointer;
-  color: darkgreen;
+  color: brown;
   font-size: 18px;
   display: flex;
   align-items: center;
@@ -81,7 +81,4 @@ select:focus,
 input:focus,
 button:focus {
   outline: 0;
-}
-h1 {
-  font-family: "Comic Sans MS", cursive, sans-serif;
 }
